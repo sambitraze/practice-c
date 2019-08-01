@@ -1,0 +1,5 @@
+1.WAP to enter four numbers from keyboards and find bigest using nested if statement.
+2.WAP to enter five numbers and find smallest one using multiple if statement.
+3.WAP to print your name 5 times using while.
+4.WAP to print your name 5 times using for.
+
