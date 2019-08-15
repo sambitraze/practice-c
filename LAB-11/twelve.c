@@ -2,7 +2,7 @@
 int main()
 {
     int rows, i, j, space;
-    printf("Enter number of rows: ");
+    printf("Enter number of rows of pattern you want to print: ");
     scanf("%d",&rows);
     for(i=rows; i>=1; --i)
     {

@@ -1,15 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int i, j, rows;
-    printf("Enter number of rows: ");
-    scanf("%d",&rows);
-    for(i=1; i<=rows; ++i)
+    int rows, a = 1;
+
+    printf("Enter no of rows of pattern you want to print: ");
+    scanf("%d", &rows);
+
+    for(int i=1;i<=rows;i++)
     {
-        for(j=1; j<=i; ++j)
+        for(int j=1;j<=i;j++)
         {
-            printf("%d ",j);
+            printf("%d ", a);
         }
+        a++;
         printf("\n");
     }
     return 0;

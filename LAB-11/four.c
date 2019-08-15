@@ -1,17 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int i, j;
-    char input, number = '1';
-    printf("Enter the number you want to print in last row: ");
-    scanf("%c",&input);
-    for(i=1; i <= (input-'1'+1); ++i)
+    int rows, a = 1;
+
+    printf("Enter no of rows of pattern you want to print: ");
+    scanf("%d", &rows);
+
+    for(int i=1;i<=rows;i++)
     {
-        for(j=1;j<=i;++j)
+        for(int j=1;j<=i;j++)
         {
-            printf("%c", number);
+            printf("%d ", a);
+            a++;
         }
-        ++number;
+        
         printf("\n");
     }
     return 0;

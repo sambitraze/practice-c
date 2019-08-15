@@ -1,17 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
-    int i, j;
-    char input, alphabet = 'A';
-    printf("Enter the uppercase character you want to print in last row: ");
-    scanf("%c",&input);
-    for(i=1; i <= (input-'A'+1); ++i)
+    int rows, a = 1;
+    printf("Enter no of rows of pattern you want to print: ");
+    scanf("%d", &rows);
+
+    for(int i=1;i<=rows;i++)
     {
-        for(j=1;j<=i;++j)
+        char ch = 'A';
+        for(int j=1;j<=i;j++)
         {
-            printf("%c", alphabet);
+           printf("%c ",ch);
+           ch++;
         }
-        ++alphabet;
         printf("\n");
     }
     return 0;
