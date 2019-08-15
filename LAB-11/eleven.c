@@ -2,7 +2,6 @@
 
 int main()
 {
-
     int rows;
     printf("Enter no of rows of pattern you want to print: ");
     scanf("%d", &rows);
