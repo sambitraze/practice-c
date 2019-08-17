@@ -1,0 +1,7 @@
+1.
+wap to enter an array of size 5 and print another array where the terms are sum of consuqutive array
+[1,2,3,4,5]
+[1,3,5,7,9]
+
+
+2.
