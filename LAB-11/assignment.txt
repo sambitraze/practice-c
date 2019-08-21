@@ -1,0 +1,93 @@
+//lab 11 assignement
+
+
+1. 
+	*
+	**			// already done in lab 10
+	***
+	****
+	*****
+
+2.
+	1
+	11			// <>
+	111
+	1111
+	11111
+3.
+	1
+	12
+	123			// <>
+	1234
+	12345
+
+4. 
+	1
+	22			// <>
+	333
+	4444
+	55555
+5.
+	1
+	23			// <>
+	456
+	78910
+	1112131415
+6.
+	1
+	01			// <>
+	101
+	0101
+	01010
+7.
+	A
+	AB			// <>
+	ABC
+	ABCD
+	ABCDE
+8.
+	A
+	BC			// <>
+	DEF
+	GHIJ
+	KLMNO
+9.
+	     1
+	    121			// <>
+	   12321
+	  1234321
+	 123454321
+10.
+	     A
+	    ABA			// <>
+	   ABCBA
+	  ABCDCBA
+	 ABCDEDCBA
+11.
+	     1
+	    101			// <>
+	   10101
+	  1010101
+	 101010101
+12.
+	 *******
+	  *****			// <>
+	   ***
+	    *
+13.
+	1 + 1/1! + 1/2! + 1/3! + ... + 1/n!		// <>
+
+14.
+	x^1/1! + x^3/3! + x^5/5! + ... + x^n/n! 		// <>
+
+15.
+	1 - x^2/2! + x^4/4! - x^6/6! + ... +- x^n/n!		// <>
+
+16.
+	1 + (1/2)^2 + (1/3)^3 + ... + (1/n)^n			// <>
+
+17. wap to read an alphabet from user and if upper case convert to lower case or else shows error.
+
+18. wap to grade system of kiit for a student in a semestater using if else lader.
+
+19. fibonassi series form  n1th term to n2th term.

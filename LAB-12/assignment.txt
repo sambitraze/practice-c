@@ -1,0 +1,9 @@
+1. print without for
+2. print using for
+3. taking array input
+4. display sum and avg of all elements in an aarray
+5. greatest element in array.
+6. asccending descending sorting
+7.  odd indexed elemenet print
+8. alternate location swap
+9.  diff of sum of odd numbers and even numbers
