@@ -1,0 +1,5 @@
+input 2d array
+add all numbers of 2 d
+min of all elemnt of 2d array
+sum of 2 2d  into 3rd araay
+
