@@ -16,7 +16,7 @@ int main()
             for (j = i + 1; j < n; ++j)
             {
  
-                if (number[i] > number[j]) 
+                if (number[i] < number[j]) 
                 { 
                     a =  number[i];
                     number[i] = number[j];

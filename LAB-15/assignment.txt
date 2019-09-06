@@ -1,0 +1,10 @@
+1. wap to display sum of each row nad coulm
+2. WAP to display a multiplication table 1 to 10
+3. WAP to display (sum of row 1 - sum of coloum 1)
+4. WAP to display largest of each row and each coloumn
+5. WAP to iput a non square array and display it into a nearest highest square matrix
+6. matrix multiplication
+7. transpose
+
+
+

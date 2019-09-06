@@ -1,0 +1,13 @@
+151226285
+1.wap tp print the element present in an array more than 1 time. -----------125
+2.wap to print the array in incrasing order---------112225568
+3. to print the element of an array nd its no of ocurrences
+
+4, length of a string with/without using librarry function
+5. copy of string 1 to 2 with/ without librarry function.
+6.to compare two string witg/without librarry function
+7. reverse of string with/ without
+8.extrcact first character of every word
+9. extarct a substring from a given string
+10. vowel consonnent check
+11. all occurance of a character with a new character  ( i->p)
