@@ -1,0 +1,5 @@
+wap to take two string and concatenate it into another
+wap to read a sentance and count no of vowel and consonant and space
+wap to extract second letter
+wap to chk string pallindrome
+wap to 

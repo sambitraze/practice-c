@@ -1,0 +1,9 @@
+wap to add two numbers entered through keyboard by using a user defined function { say sum}
+wap to fid factorial of a number by using a suitable user defined func(say fact)
+wap to find sum of digits of a number n by using use defind function
+wap to find fibonassi series  using user defined function
+wap to compute sinx  series using func
+wap to degisn a user defined function to find sum of all integers in an array
+wap sorting array element
+wap to find gcd / hcf (recuursive function)
+wap to find factorial using ecurrsive function

@@ -5,11 +5,7 @@ void main()
     int arr1[100], fr1[100];
     int n, i, j, ctr;
 	
-	
-       printf("\n\nCount frequency of each element of an array:\n");
-       printf("------------------------------------------------\n");	
-
-       printf("Input the number of elements to be stored in the array :");
+	   printf("Input the number of elements to be stored in the array :");
        scanf("%d",&n);
    
        printf("Input %d elements in the array :\n",n);

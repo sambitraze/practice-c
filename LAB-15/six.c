@@ -2,7 +2,7 @@
 int main()
 {
     int r, c, a, arr1[100][100],arr2[100][100];
-    printf("Enter no of rows and coloum(non-square):: ");
+    printf("Enter no of rows and coloum:: ");
     scanf("%d %d", &r, &c);
     arr1[r][c];
     arr2[r][c];
@@ -14,7 +14,7 @@ int main()
             scanf("%d", &arr1[i][j]);
         }
     }
-    printf("\n Enter array (A) elements::");
+    printf("\n Enter array (b) elements::");
     for(int i=0;i<r;i++)
     {
         for(int j=0;j<c;j++)
@@ -37,7 +37,7 @@ int main()
     }
     
     
-    printf("\nArray elements(square)::\n");
+    printf("\nArray elements of new matrix is::\n");
     for(int i=0;i<r;i++)
     {
         for(int j=0;j<c;j++)
