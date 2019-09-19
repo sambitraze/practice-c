@@ -1,24 +1,44 @@
-#include<stdio.h>
+#include <stdio.h>
 
- void main()
- {
-  int i,arr[20],j,no;
-    printf("Enter size of array: ");
-  scanf("%d",&no);
-  printf("Enter any %d elements in array: ",no);
-  for(i=0;i<no;i++)
-  {
-   scanf("%d",&arr[i]);
-  }
-  printf("Duplicate elements are: ");
-  for(i=0; i<no; i++)
-   {
-    for(j=i+1;j<no;j++)
+void main()
+{
+    int arr1[100], fr1[100];
+    int n, i, j, ctr;
+	
+	   printf("Input the number of elements to be stored in the array :");
+       scanf("%d",&n);
+   
+       printf("Input %d elements in the array :\n",n);
+       for(i=0;i<n;i++)
+            {
+	      printf("element - %d : ",i);
+	      scanf("%d",&arr1[i]);
+		  fr1[i] = -1;
+	    }
+    for(i=0; i<n; i++)
     {
-    if(arr[i]==arr[j])
-    {
-    printf("%d\n",arr[i]);
+        ctr = 1;
+        for(j=i+1; j<n; j++)
+        {
+            if(arr1[i]==arr1[j])
+            {
+                ctr++;
+                fr1[j] = 0;
+            }
+        }
+
+        if(fr1[i]!=0)
+        {
+            fr1[i] = ctr;
+        }
     }
-   }
-   }
- }
+    printf("\nunique elements of arraywhich occured more than 1 time are : \n");
+    for(i=0; i<n; i++)
+    {
+        if(fr1[i]>1)
+        {
+            printf("%d ", arr1[i]);
+            printf("\n");
+        }
+    }
+}

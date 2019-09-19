@@ -5,7 +5,7 @@
 
 4, length of a string with/without using librarry function
 5. copy of string 1 to 2 with/ without librarry function.
-6.to compare two string witg/without librarry function
+6.to compare two string witg/without librarry function 
 7. reverse of string with/ without
 8.extrcact first character of every word
 9. extarct a substring from a given string

@@ -1,40 +1,40 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int r, c, sum1=0,sum2=0, arr[100][100];
-    printf("Enter no of rows and coloum:: ");
+    int a[10][10], transpose[10][10], r, c, i, j;
+    printf("Enter rows and columns of matrix: ");
     scanf("%d %d", &r, &c);
-    arr[r][c];
-    printf("Enter array elements::");
-    for(int i=0;i<r;i++)
-    {
-        for(int j=0;j<c;j++)
+    // Storing elements of the matrix
+    printf("\nEnter elements of matrix:\n");
+    for(i=0; i<r; i++)
+        for(j=0; j<c; j++)
         {
-            scanf("%d", &arr[i][j]);
+            printf("Enter element a%d%d: ",i+1, j+1);
+            scanf("%d", &a[i][j]);
         }
-    }
-    printf("array elements::\n");
-    for(int i=0;i<r;i++)
-    {
-        for(int j=0;j<c;j++)
+    // Displaying the matrix a[][] */
+    printf("\nEntered Matrix: \n");
+    for(i=0; i<r; i++)
+        for(j=0; j<c; j++)
         {
-            printf("%d ", arr[i][j]);
+            printf("%d  ", a[i][j]);
+            if (j == c-1)
+                printf("\n\n");
         }
-    printf("\n");
-    }
-    
-    for(int i=0;i<r;i++)
-    {
-        for(int j=0;j<c;j++)
+    // Finding the transpose of matrix a
+    for(i=0; i<r; i++)
+        for(j=0; j<c; j++)
         {
-           sum1+=arr[i][j];
-           sum2+=arr[j][i];
+            transpose[j][i] = a[i][j];
         }
-        printf("sum of row %d :: %d ", i+1, sum1);
-        printf("\n");
-        printf("sum of column %d :: %d\n", i+1, sum2);
-        sum1=0;
-        sum2=0;
-    }
+    // Displaying the transpose of matrix a
+    printf("\nTranspose of Matrix:\n");
+    for(i=0; i<c; i++)
+        for(j=0; j<r; j++)
+        {
+            printf("%d  ",transpose[i][j]);
+            if(j==r-1)
+                printf("\n\n");
+        }
     return 0;
 }

@@ -1,21 +1,45 @@
+
 #include <stdio.h>
 #include <string.h>
  
-int main()
+void main()
 {
-   char arr[100],r[100];
+    int i, j = 0, k = 0, x, len;
+    char str[100], str1[10][20], temp;
  
-   printf("Enter a string to reverse\n");
-   gets(arr);
-   strcpy(r,arr);
-   strrev(r);
+    printf("enter the string :");
+    scanf("%[^\n]s", str);
  
-   printf("Reverse of the string is \n%s\n", r);
-   if(strcmp(arr,r)==0)
-    printf("\n String is pallindrome:");
-   else
-    printf("\n String is not pallindrome:");
-   
-
-   return 0;
+/* reads into 2d character array */
+    for (i = 0;str[i] != '\0'; i++)
+    {
+        if (str[i] == ' ')
+        {
+            str1[k][j]='\0';
+            k++;
+            j=0;
+        }
+        else
+        {
+            str1[k][j]=str[i];
+            j++;
+        }
+    }
+    str1[k][j] = '\0';
+ 
+/* reverses each word of a given string */
+    for (i = 0;i <= k;i++)
+    {
+        len = strlen(str1[i]);
+        for (j = 0, x = len - 1;j < x;j++,x--)
+        {
+            temp = str1[i][j];
+            str1[i][j] = str1[i][x];
+            str1[i][x] = temp;
+        }
+    }
+    for (i = 0;i <= k;i++)
+    {
+        printf("%s ", str1[i]);
+    }
 }
