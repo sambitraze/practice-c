@@ -1,0 +1,2 @@
+add two numbers using pointers
+store diff data type value in diff variable  print it using the pouinter and prints size

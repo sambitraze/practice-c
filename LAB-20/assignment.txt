@@ -1,1 +1,4 @@
 fibonassi sereis using recurssive
+hcf hcd
+fact
+sum of digits

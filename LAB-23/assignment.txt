@@ -1,0 +1,10 @@
+swaping using pointer
+swaping using call by refeernce
+print a string using pointer
+count vowels using pointer
+store int eemts ina array using dynamic memory allocation adn print using pointer
+compute sum of all elemnts in an array using pointer
+to display the values in reverse order from an integer array using pointer
+sort an array using pointer
+string reerse using a pointer
+largest eelemnt stored in an aarray of n elements by using dynamic memory allocation
