@@ -1,4 +1,3 @@
-fibonassi sereis using recurssive
-hcf hcd
-fact
-sum of digits
+add two numbers using pointers
+ wap to store the different data types values in different variables and print it using the pointer and print the size then print the address of each variable using '&' and print the address using pointer 
+ 

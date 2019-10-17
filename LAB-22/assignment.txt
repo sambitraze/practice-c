@@ -1,2 +1,4 @@
-add two numbers using pointers
-store diff data type value in diff variable  print it using the pouinter and prints size
+wap to add two numbers using pointers.
+wap to chk adress you have passed from main func is equal to the adress recieved by the called func.
+wap to find the sum of an array using pointer
+wap to printa a string using pointers
