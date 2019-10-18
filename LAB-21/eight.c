@@ -10,8 +10,6 @@ void main()
 
    int i;
 
-   clrscr();
-
    printf("\n Enter the number of elements in the first array\n");
 
    scanf("%d",&item); //reding elements from user
@@ -68,7 +66,5 @@ void main()
   for(i=0;i<item;++i)
 
   printf("%d\n",a[i]);
-
-  getch();
 
  }
