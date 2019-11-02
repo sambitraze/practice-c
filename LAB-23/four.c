@@ -20,8 +20,7 @@ void main()
 
     res_km=d1.km + d2.km + ((d1.m+d2.m)/1000);
     res_m=((d1.m+d2.m)%1000);
-    res_km=d1.km*d1.m;
-    res_m=d2.kmd 2.m;
+   
 
 
     printf("\n\n\t\t Resultant Distance:");
