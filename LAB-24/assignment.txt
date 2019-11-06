@@ -1,0 +1,25 @@
+1. same as 2 but using normal structure
+2. wap to store 1 student bio-data(roll,name,gender,marks) of an educational instuitute and sipaly all the data using structure using pointer
+
+
+3. wap to decalre an union named as abc having two members a as char and b as int. Assign capital A to a and 100 to b through an union
+ variabe ob 1 by 1; and display these balues immediately
+assign these values to a,b through ob altogether and dsiplay these values at last. find the difference
+
+
+4. wap to read data from keyboard, write it to a file called INPUT angain read same data from the same fiel and display it on the scrrem
+
+5. a file name data contains contains a sereis of integer number . code  a program to read these numbrs and then write all odd number to
+ a file.(odd) and all even nos toa  file named even
+
+6. wap to create a file and write some data in it(roll name gender marks)
+
+7. wap to count the no of char no of lines  no blank spaces no of tabs
+
+8. wap to copy content of one file to another
+
+9. wap to convert all char of a file to uppe case
+
+10. wap to store n elemnts in an array using dynamc memory allocation and print the element using pointer
+
+

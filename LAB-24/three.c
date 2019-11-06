@@ -2,7 +2,7 @@
 
 union abc{
     char a;
-    int b
+    int b;
 };
 void main()
 {

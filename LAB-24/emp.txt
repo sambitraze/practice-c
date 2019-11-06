@@ -1,0 +1,4 @@
+Name    = sambit
+ROll     = 22
+Marks  = 100
+Gender    = male

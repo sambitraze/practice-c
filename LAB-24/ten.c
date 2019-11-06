@@ -1,17 +1,27 @@
-#include<stdio.h>
+#include <stdio.h> 
+#include <stdlib.h> 
 
-void main()
-{
-    int i, n, *a;
-    printf("Enter no of elements:");
-    scanf("%d",n);
-    a=(int*)malloc(n*sizeof(int));
-    for(int i=0;i<n;i+)
-    {
-        scanf("%d", a+i)  // a[i]
-    }
-    for(i =0;i<n;i++)
-    {
-        printf("%d",*(a+i));
-    }
-}
+int main() 
+{ 
+	int* ptr; 
+	int n, i, sum = 0; 
+	n = 5; 
+	printf("Enter number of elements: %d\n", n); 
+	ptr = (int*)malloc(n * sizeof(int)); 
+	if (ptr == NULL) { 
+		printf("Memory not allocated.\n"); 
+		exit(0); 
+	} 
+	else { 
+		printf("Memory successfully allocated using malloc.\n"); 
+		for (i = 0; i < n; ++i) { 
+			ptr[i] = i + 1; 
+		} 
+		printf("The elements of the array are: "); 
+		for (i = 0; i < n; ++i) { 
+			printf("%d, ", ptr[i]); 
+		} 
+	} 
+
+	return 0; 
+} 

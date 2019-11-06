@@ -7,11 +7,11 @@ void main()
     char c;
     printf("Data Input\n\n");
     while((c=getchar())!= EOF)
-        putc(c,fp);
+        fputc(c,fp);
     fclose(fp);
     printf("\nData Output\n\n");
     fp = fopen("INPUT", "r");
-    while((c=getc(fp))!= EOF)
+    while((c=fgetc(fp))!= EOF)
         printf("%c",c);
     fclose(fp);
 }
