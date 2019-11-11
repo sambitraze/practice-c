@@ -24,5 +24,17 @@ void main() {
       a = toupper(a);
       fputc(a, fp2);
    } while (a != EOF);
-   
+   fclose(fp1);
+   fclose(fp2);
 }
+#include<stdio.h>
+ int factorial(int a)
+ {
+    if(a == 0)
+      return 0;
+   else
+   {
+      return(a*(factorial(a-1)));
+   }
+   
+ }
